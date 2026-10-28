@@ -70,10 +70,10 @@ function ReadPtr($hProc, [ulong]$addr) {
 
 function Get-ScanBase($hProc, [ulong]$modBase) {
     # supportedBuilds: RootRva=38214736, Off1=72, Off2=200, ScanDelta=1428
-    $rootRva  = 38214736UL
-    $off1     = 72UL
-    $off2     = 200UL
-    $scanDelta = 1428UL
+    $rootRva   = 38214736
+    $off1      = 72
+    $off2      = 200
+    $scanDelta = 1428
 
     $p1 = ReadPtr $hProc ($modBase + $rootRva)
     $p2 = ReadPtr $hProc ($p1 + $off1)
@@ -98,6 +98,7 @@ function MatchesTarget([float]$v) {
 }
 
 function WriteFloatRwx($hProc, [ulong]$addr, [float]$val) {
+    # โค้ดฟังก์ชันถัดไปของคุณตรงนี้...
     $bytes = [BitConverter]::GetBytes($val)
     $old = 0
     [Mem]::VirtualProtectEx($hProc, [IntPtr]$addr, [UIntPtr]4, 0x40, [ref]$old) | Out-Null
