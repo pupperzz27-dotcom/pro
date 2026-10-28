@@ -88,11 +88,13 @@ function Get-ScanBase($hProc, [ulong]$modBase) {
 
 function MatchesTarget([float]$v) {
     # targetBits — known crit float signatures
-   $targets = @(-0.10, -0.20, -0.30, -0.33, -0.36, -0.38, -0.4...)
+    $targets = @(-0.10, -0.20, -0.30, -0.33, -0.36, -0.38, -0.40)
     foreach ($t in $targets) {
         if ([Math]::Abs($v - $t) -lt 0.001 -or [Math]::Abs($v + $t) -lt 0.001) {
             return $true
         }
+    }
+}
     }
     return $false
 }
