@@ -94,8 +94,6 @@ function MatchesTarget([float]$v) {
             return $true
         }
     }
-}
-    }
     return $false
 }
 
