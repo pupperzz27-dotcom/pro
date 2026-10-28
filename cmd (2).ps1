@@ -83,12 +83,12 @@ function Get-ScanBase($hProc, [ulong]$modBase) {
         return $p3 + $scanDelta
     }
     # fallback
-    return $modBase + 38214736UL
+    return $modBase + 38214736
 }
 
 function MatchesTarget([float]$v) {
     # targetBits — known crit float signatures
-    $targets = @(-0.10f, -0.20f, -0.30f, -0.33f, -0.36f, -0.38f, -0.40f)
+   $targets = @(-0.10, -0.20, -0.30, -0.33, -0.36, -0.38, -0.4...)
     foreach ($t in $targets) {
         if ([Math]::Abs($v - $t) -lt 0.001 -or [Math]::Abs($v + $t) -lt 0.001) {
             return $true
