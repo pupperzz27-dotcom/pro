@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6I13RlVIhmA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PP\\Downloads\\New folder\\Loader\\Loader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PP\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.33\\microsoft.net.illink.tasks.8.0.33.nupkg.sha512",
+    "C:\\Users\\PP\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.33\\microsoft.netcore.app.runtime.win-x64.8.0.33.nupkg.sha512",
+    "C:\\Users\\PP\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.33\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.33.nupkg.sha512",
+    "C:\\Users\\PP\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.33\\microsoft.aspnetcore.app.runtime.win-x64.8.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

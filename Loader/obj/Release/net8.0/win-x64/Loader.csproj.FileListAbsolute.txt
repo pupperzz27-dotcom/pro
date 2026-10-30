@@ -1,0 +1,4 @@
+C:\Users\PP\Downloads\New folder\Loader\obj\Release\net8.0\win-x64\Loader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PP\Downloads\New folder\Loader\obj\Release\net8.0\win-x64\Loader.AssemblyInfoInputs.cache
+C:\Users\PP\Downloads\New folder\Loader\obj\Release\net8.0\win-x64\Loader.AssemblyInfo.cs
+C:\Users\PP\Downloads\New folder\Loader\obj\Release\net8.0\win-x64\Loader.csproj.CoreCompileInputs.cache
